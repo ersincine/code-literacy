@@ -1,0 +1,464 @@
+[
+    [
+        {
+            "start-messages": 
+            [
+                {
+                    "title": "Kod Okuryazarlığı, 1. Bölüm",
+                    "text": "Bu oyun sana başlangıç seviyesinden ileri seviyeye kadar kod okuryazarlığı yeteneklerini kazandıracak. Beceri sınırlarını olabildiğince zorlayacağım için kolay bir macera bekleme! Yine de korkacak bir şey yok. Çünkü sınırsız deneme hakkın var. Fakat karşına çıkan bilgi kutularını mutlaka okumalısın.",
+                    "background": "#fff url(../img/shapes.jpg)",
+                    "backdrop": ""
+                },
+                {
+                    "title": "Sen bir robotsun!",
+                    "text": "Oyunda, kodlama yapan bir kişiyi (yani programcıyı) değil, kendisine kod ile komutlar verilen bir robotu (yani aslında bilgisayarı) canlandıracaksın. İraden veya amacın yok. Yalnızca programcı tarafından verilen keyfi komutları anlayıp yerine getirmen gerekiyor.",
+                    "background": "#fff url(../img/arc.jpg)",
+                    "backdrop": ""
+                }
+            ],
+            "end-messages": [],
+            "problem": ["sağ()"],
+            "solution": ["right"],
+            "actives": [0],
+            "colors": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "texts": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "hint": "Kod panosundaki komutu yerine getirmek için ekrandaki uygun düğmeye tıkla (klavyendeki yön tuşlarını da kullanabilirsin). Bir komutun sonunda neden parantez açılıp kapandığını daha sonra öğreneceksin."
+        },
+        {
+            "start-messages": [],
+            "end-messages": [],
+            "problem": ["sağ()", "sağ()", "aşağı()", "kırmızı()", "aşağı()", "sol()", "mavi()", "yukarı()", "yeşil()", "sağ()", "sarı()", "aşağı()", "kırmızı()", "aşağı()"],
+            "solution": ["right", "right", "down", "red", "down", "left", "blue", "up", "green", "right", "yellow", "down", "red", "down"],
+            "actives": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "colors": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "texts": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "hint": "Komutları, yani kod panosundaki satırları sırasıyla yerine getir. Yanıp sönen daire hangi komutu yerine getirmen gerektiğini gösteriyor."
+        }
+    ],
+
+
+    [
+        {
+            "start-messages": [
+                {
+                    "title": "Kod Okuryazarlığı, 1. Bölüm",
+                    "text": "Bu oyun sana kod okuryazarlığı yeteneklerini kazandıracak.",
+                    "background": "#fff url(../img/shapes.jpg)",
+                    "backdrop": ""
+                },
+                {
+                    "title": "Sen bir robotsun!",
+                    "text": "Kodlama yapan bir kişiyi (yani programcıyı) değil, kendisine kod ile komutlar verilen bir robotu (yani aslında bilgisayarı) canlandırıyorsun. İraden veya amacın yok. Yalnızca programcı tarafından verilen keyfi komutları anlayıp yerine getirmen gerekiyor.",
+                    "background": "#fff url(../img/arc.jpg)",
+                    "backdrop": ""
+                }
+            ],
+            "end-messages": [
+                {
+                    "title": "",
+                    "text": "",
+                    "background": "#fff url(../img/seamless.jpg)",
+                    "backdrop": "../img/nyan-cat.gif"
+                },
+                {
+                    "title": "",
+                    "text": "",
+                    "background": "#fff url(../img/seamless.jpg)",
+                    "backdrop": "../img/nyan-cat.gif"
+                }
+            ],
+            "problem": ["x = 5"],
+            "solution": ["$x=5"],
+            "actives": [0],
+            "colors": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "texts": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "hint": "Kod kısmında belirtilen komutu yerine getirmek için ekrandaki düğmeleri veya klavyendeki yön tuşlarını kullanabilirsin."
+        },
+        {
+            "start-messages": [],
+            "end-messages": [],
+            "problem": ["sağ()", "sağ()", "aşağı()", "kırmızı()", "aşağı()", "sol()", "mavi()", "yukarı()", "yeşil()", "sağ()", "sarı()", "aşağı()", "kırmızı()", "aşağı()"],
+            "solution": ["right", "right", "down", "red", "down", "left", "blue", "up", "green", "right", "yellow", "down", "red", "down"],
+            "actives": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "colors": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "texts": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "hint": "Komutları sırasıyla yerine getir. Yanında yanıp sönen bir daire olan satır, yerine getirmen gereken komutu gösteriyor."
+        },
+        {
+            "start-messages": [],
+            "end-messages": [],
+            "problem": ["sarı()", "yaz('Kod')", "sağ()", "yaz('okumak')", "kırmızı()", "sağ()", "yaz('kolay')", "yaz('çok kolay')", "aşağı()", "aşağı()"],
+            "solution": ["yellow", "'Kod'", "right", "'okumak'", "red", "right", "'kolay'", "'çok kolay'", "down", "down"],
+            "actives": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+            "colors": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "texts": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "hint": "Yazdırma komutu robotun bulunduğu kareye yazı yazdırmak için kullanılır. Tırnak işaretlerini değil, yalnızca tırnak işaretleri arasında kalan yazıyı yazdırmalısın. Harflerin büyük veya küçük olmasına ve yazının boşluk içerip içermemesine dikkat et."
+        }
+    ],
+    [
+        {
+            "start-messages": [],
+            "end-messages": [],
+            "problem": ["aşağı()"],
+            "solution": ["down"],
+            "actives": [0],
+            "colors": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "texts": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "hint": "Kod kısmında belirtilen komutu yerine getirmek için ekrandaki düğmeleri veya klavyendeki yön tuşlarını kullanabilirsin."
+        },
+        {
+            "start-messages": [],
+            "end-messages": [],
+            "problem": ["sağ()", "sağ()", "aşağı()", "boya('kırmızı')", "aşağı()", "sol()", "boya('mavi')", "yukarı()", "boya('yeşil')", "sağ()", "boya('sarı')", "aşağı()", "boya('kırmızı')", "aşağı()"],
+            "solution": ["right", "right", "down", "red", "down", "left", "blue", "up", "green", "right", "yellow", "down", "red", "down"],
+            "actives": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+            "colors": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "texts": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "hint": "Komutları sırasıyla yerine getir. Yanında yanıp sönen bir daire olan satır, yerine getirmen gereken komutu gösteriyor."
+        },
+        {
+            "start-messages": [],
+            "end-messages": [],
+            "problem": ["boya('kırmızı')", "git('sağ', 4)", "boya('kırmızı')", "git('aşağı', 3)", "git_ve_boya('aşağı', 'kırmızı')", "git('sol', 3)", "sol_ve_yukarı()", 
+                "git('aşağı', 1)", "boya('kırmızı')", "yukarı()"],
+            "solution": ["red", "right", "right", "right", "right", "red", "down", "down", "down", "down", "red", "left", "left", "left", "left", "up", "down", "red", "up"],
+            "actives": [0, 1, 1, 1, 1, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 8, 9],
+            "colors": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "texts": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "hint": "Bazı komutlar birden fazla eylem gerektiriyor. Örneğin git('sağ', 3) komutu 3 defa sağa gidilmesi gerektiği anlamına geliyor."
+        },
+        {
+            "start-messages": [],
+            "end-messages": [],
+            "problem": ["git('sağ', 1 + 1)", "git('aşağı', 5 - 4 - 1 + 3)", "git_ve_boya('sağ', 'kır' + 'mızı')", "git('yu' + 'ka' + 'rı', 10 - 8)"],
+            "solution": ["right", "right", "down", "down", "down", "right", "red", "up", "up"],
+            "actives": [0, 0, 1, 1, 1, 2, 2, 3, 3],
+            "colors": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "texts": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "hint": "+ ve - operatörleri sayılar için toplama ve çıkarma anlamlarına gelir. İşlemin kendisini değil, sonucunu eyleme dönüştürün. Yazılar için sadece + operatörü vardır ve birleştirme anlamına gelir. Örneğin 'ma' + 'vi' işleminin sonucu 'mavi' olur."
+        },
+        {
+            "start-messages": [],
+            "end-messages": [],
+            "problem": ["yaz(2)", "sağ()", "yaz('+')", "sağ()", "yaz(2)", "sağ()", "yaz('=')", "sağ()", "yaz(4)", "aşağı()", "yaz('derslab')", "yaz('DERS LAB')", "aşağı()"],
+            "solution": ["'2'", "right", "'+'", "right", "'2'", "right", "'='", "right", "'4'", "down", "'derslab'", "'DERS LAB'", "down"],
+            "actives": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "colors": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "texts": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "hint": "Yazdırma komutu robotun bulunduğu kareye sayı (tırnaksız) veya yazı (tırnak içinde) yazdırmak için kullanılır. Tırnak işareti varsa bile yazarken yokmuş gibi davran. O halde neden tırnak işareti konuyor? Sebebini sonra öğreneceksin. Harflerin büyük veya küçük olmasına ve yazının boşluk içerip içermemesine dikkat et."
+        },
+        {
+            "start-messages": [],
+            "end-messages": [],
+            "problem": ["yaz(10)", "yaz('10')", "sağ()", "yaz(1+1)", "yaz(2+3-1)", "sağ()", "yaz('DersLab')", "yaz('ders+lab')", "yaz('ders'+'lab')",
+            "sağ()", "yaz(1+1)", "yaz('1+1')", "yaz('1'+'1')"],
+            "solution": ["'10'", "'10'", "right", "'2'", "'4'", "right", "'DersLab'", "'ders+lab'", "'derslab'", "right", "'2'", "'1+1'", "'11'"],
+            "actives": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            "colors": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "texts": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "hint": "İşler zorlaşıyor. Çok dikkatli olmalısın! Harflerin büyük veya küçük olmasına ve yazının boşluk içerip içermemesine dikkat et. Sayılar arasındaki + toplama işlemidir. Yazılar arasındaki + birleştirme işlemidir. Yazının parçası olan yani tırnak içindeki + işlem değildir ve olduğu gibi kalır."
+        },
+        {
+            "start-messages": [],
+            "end-messages": [],
+            "problem": ["y = 1", "y = y + 1", "x = yazı_oku()", "z = y + 1"],
+            "solution": ["$y=1", "$y=2", "$x='Ersin'", "$z=3"],
+            "actives": [0, 1, 2, 3],
+            "colors": [ 
+                [null, "blue", null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, "red", null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "texts": [ 
+                ["Ersin", "Uğur", null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "hint": "Git gide zorlaşıyor..."
+        },
+        {
+            "start-messages": [],
+            "end-messages": [],
+            "problem": [
+                "sol()",
+                "sol()",
+                "aşağı()",
+                "git('sağ', 2)",
+                "boya('kır' + 'mızı')",
+                "yaz('x')",
+                "aşağı()",
+                "yukarı()",
+                "sol()"
+            ],
+            "solution": [
+                "left",
+                "left",
+                "down",
+                "right",
+                "right",
+                "red",
+                "'x'",
+                "down",
+                "up",
+                "left"
+            ],
+            "actives": [0, 1, 2, 3, 3, 4, 5, 6, 7, 8],
+            "colors": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "texts": [ 
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "hint": "Git gide zorlaşıyor..."
+        },
+        {
+            "start-messages": [],
+            "end-messages": [],
+            "problem": [
+                "aşağı()",
+                "x = yazı_oku()",
+                "sağ()",
+                "boya('kır' + x)",
+                "sağ()",
+                "y = renk_oku()",
+                "sağ()",
+                "boya(y)",
+                "yukarı()",
+                "eğer renk_oku() == 'mavi' ise:",
+                "\tsağ()",
+                "değilse:",
+                "\tsol()",
+                "\tsağ()"
+            ],
+            "solution": [
+                "down",
+                "$x='mızı'",
+                "right",
+                "red",
+                "right",
+                "$y='mavi'",
+                "right",
+                "blue",
+                "up",
+                "left",
+                "right"
+            ],
+            "actives": [0, 1, 2, 3, 4, 5, 6, 7, 8, [12, 10], 13],
+            "colors": [
+                [null, null, null, "red", null],
+                [null, null, "blue", null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "texts": [
+                [null, null, null, null, null],
+                ["mızı", null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null],
+                [null, null, null, null, null]
+            ],
+            "hint": "Git gide zorlaşıyor..."
+        }
+    ]
+]

@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+.all-content {
+	font-family: 'Roboto', sans-serif;
+}
+
+.horizontal {
+	display: flex;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.yellow-bg {
+    background: rgb(230,220,30);
+    background: linear-gradient(180deg, rgba(230,220,30,1) 0%, rgba(250,240,50,1) 100%);
+}
+
+.red-bg {
+    background: rgb(210,75,75);
+    background: linear-gradient(180deg, rgba(210,75,75) 0%, rgba(230,95,95) 100%);
+}
+
+.blue-bg {
+    background: rgb(70,150,220);
+    background: linear-gradient(180deg, rgba(70,150,220) 0%, rgba(90,170,240) 100%);
+}
+
+.green-bg {
+    background: rgb(100,225,100);
+    background: linear-gradient(180deg, rgba(100,225,100) 0%, rgba(120,245,120) 100%);
+}
+
+.gray-bg {
+    background: rgb(224,224,224);
+    background: linear-gradient(180deg, rgba(224,224,224) 0%, rgba(244,244,244) 100%);
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.black-bg {
+    background-color: #404040;
+}
+
+.small-font {
+    font-size: 4px;
+}
+
+.medium-font {
+    font-size: 8px;
+}
+
+.large-font {
+    font-size: 16px;
+}
+
+.big-font {
+    font-size: 20px;
+	display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.huge-font {
+    font-size: 24px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.white-text {
+    color: white !important;
+}
+
+div.toolbox {
+    margin: 0;
+    border: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+div.toolbox button {
+    border: 1px solid #404040;
+    border-radius: 10%;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    color:rgb(50, 50, 50);
+    cursor: pointer;
+}
+
+div.toolbox button:active {
+	color:rgb(175, 175, 175) !important;
+}
+
+div.toolbox button.fat-button {
+    border: 1px solid #404040;
+    border-radius: 5%;
+    padding: 0;
+    width: 90px;
+    height: 45px !important; 
+    cursor: pointer;
+}
+
+div.toolbox button.fat-button:hover {
+    background-color: #101010;
+}
+
+// Şimdilik sığsınlar diye thin-button yapacağım.
+div.toolbox button.thin-button {
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 10%;
+    padding: 0;
+    width: calc(100% * 0.1);
+    height: 60px;
+    color:rgb(50, 50, 50);
+    cursor: pointer;
+}
+
+
+div.toolbox button:disabled {
+    color: #c0c0c0 !important;
+    border-color: #c0c0c0 !important; 
+    cursor: auto !important;
+}
+
+div.toolbox button.black-bg:disabled {
+    background-color: gray;
+}
+
+// not disabled yerine enabled?
+div.toolbox button:not(:disabled):hover {
+    box-shadow: 1px 1px 2px rgb(50, 50, 50), 0 0 10px rgb(175, 175, 175), 0 0 10px rgb(36, 36, 36);	
+}
+
+#button-prev {
+    align-self: flex-end;
+}
+
+#button-next {
+    align-self: flex-end;
+}
+
+#div-title {
+    font: 40px 'Courier New', monospace; 
+}
+
+div.panel {
+	border: 1px solid black; 
+	width: 100%; 
+	background-color: #F0F0F0; 
+	align-self: center;
+}
+
+div.panel + div.panel {
+	margin-top: 10px;
+}
+
+div.panel .panel-header {
+	height: 30px; 
+	background-color: #BBBBBB; 
+	text-align: center; 
+	font: 26px 'Roboto', sans-serif; 
+	font-weight: 600;
+}
+
+#canvas {
+    margin-top: 10px;
+	display: inline-block;
+}
+
+@keyframes blinker {
+	50% {
+		opacity: 0;
+	}
+}
+
+ul.line {
+    font: 20px 'Courier New', monospace;
+	list-style-type: none;
+	text-align: left;
+	margin: 10px 0;
+
+	li {
+		padding-left: 50px;			// Burası 25 idi önceden.
+		text-indent: -1em;
+
+		button.code-selection {
+			margin-left: -10px;
+			padding: 0 10px;
+			border: 0;
+			font: 20px 'Courier New', monospace;
+			cursor: pointer;
+			background-color: black;
+			color: white;
+		}
+		
+		button.code-selection:hover {
+			background-color: gray;
+		}
+		
+		button.variable-value {
+			margin: 2px 5px;
+			font: 20px 'Courier New', monospace;	
+			cursor: pointer;
+		}
+	}
+
+	li:before {
+		content: "";
+		padding-right: 15px;
+	}
+
+	li.single-active:before {
+		font-family: "Font Awesome 5 Free";
+		content: "\f111";
+		display: inline-block;
+		vertical-align: middle;
+		font-weight: 900;
+		padding-right: 15px;
+		animation: blinker 1s linear infinite;
+	}
+	
+	li.multi-active:before {
+		font-family: "Font Awesome 5 Free";
+		content: "\f128";
+		display: inline-block;
+		vertical-align: middle;
+		font-weight: 900;
+		padding-right: 15px;
+		animation: blinker 1s linear infinite;
+	}
+	
+	li.done:before {
+		font-family: "Font Awesome 5 Free";
+		content: "\f058";
+		display: inline-block;
+		vertical-align: middle;
+		font-weight: 900;
+		padding-right: 15px;
+	}
+	  
+}
+
+#level-icon {
+	font-size:34px;
+}
+
+/* Disable app for small screens */
+
+#content-desktop {
+	display: block;
+}
+
+#content-mobile {
+	display: none;
+	margin-top: 100px;
+	text-align: center;
+	font: 18px 'Roboto', sans-serif;
+}
+
+@media (max-height:250px) {  // screen and
+	#content-mobile {
+		margin-top: 0;
+	}
+}
+
+@media (max-height:630px) {  // screen and
+	#content-desktop {display: none;}
+	#content-mobile {display: block;}
+}
+
+@media (max-width:1000px) {  // screen and
+	#content-desktop {display: none;}
+	#content-mobile {display: block;}
+}
+
+// SweetAlert'ler çıkınca arka planı bulanıklaştıralım.
+body.swal2-shown > [aria-hidden="true"] {
+	transition: 0.1s filter;
+	filter: blur(10px);
+}
+
+// Arka plan için animasyon
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 50vh; // Burası 100'dü... Scrollbar kaybolsun diye yaptım da ne alaka???
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+// Tooltips
+// https://codepen.io/fdsea/pen/BMPeVR
+// Bu tarz şeylere bak.

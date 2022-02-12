@@ -1,0 +1,33 @@
+npm run dev
+
+veya:
+npm run prod
+
+Hata verirse şunu dene:
+rm -rf node_modules
+npm install
+
+Şu olabilir ama şimdilik yok.
+npm install --save-dev html-loader
+
+-------------------------------------------------
+
+sudo npm install sweetalert2
+
+import Swal from 'sweetalert2' // ES6 Modules or TypeScript
+const Swal = require('sweetalert2') // CommonJS
+
+-------------------------------------------------
+
+index.ts ->
+import { str1 as s } from './temp';
+
+temp.ts ->
+export const str1: string = '->temp.ts'
+
+-------------------------------------------------
+
+//import styles from '../style/style.css'
+
+//import {Point, Circle, drawCanvas, CanvasDrawingOptions, Line} from '@mathigon/euclid'
+// tsc --target es5 --lib "es2017","dom" --downlevelIteration x.ts

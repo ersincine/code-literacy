@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Literacy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> <!-- headShake için -->
+    <style> 
+        /*
+        #variable-panel {
+        	display: none;
+        }
+        */
+    </style>
+</head>
+<body class="all-content">
+
+    <div id="content-desktop">
+    
+        <div class="horizontal">
+
+            <!-- Sol sütun -->
+            <div class="vertical" style="width: 510px">
+    
+                <!-- Problem panosu -->
+                <div class="panel">
+                    <div class="panel-header">Program</div>
+                    <div class="toolbox">
+                        <button id="button-prev" class="big-font black-bg white-text fat-button" disabled>
+                            Önceki
+                        </button>
+                        <button id="button-next" class="big-font black-bg white-text fat-button" disabled>
+                            Sonraki
+                        </button>
+
+                        <div id="div-title">
+                            <span id="program-no">0</span><i id="program-no-icon" class="fas"></i>
+                        </div>                        
+                        
+                        <button id="button-help" class="big-font black-bg white-text fat-button">
+                            İpucu
+                        </button>
+
+                        <button id="button-exit" class="big-font black-bg white-text fat-button">
+                            Kapat
+                        </button>
+                    </div>
+                </div>
+    
+                <!-- Tuval -->
+                <canvas id="canvas" width="510" height="510"></canvas>
+
+            </div>
+
+
+            <!-- Sağ sütun -->
+            <div class="vertical" style="width: 100%; margin-left: 10px">
+    
+                <!-- Kod panosu -->
+                <div class="panel">
+                    <div class="panel-header">Kod</div>
+                    <ul id="code-lines" class="line"></ul>
+                </div>
+    
+                <!-- Komut panosu -->
+                <div class="panel">
+                    <div class="panel-header">Eylem</div>
+                    <div class="toolbox">
+                        <button id="button-left" class="action-button huge-font thin-button">
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                        <button id="button-up" class="action-button huge-font thin-button">
+                            <i class="fas fa-arrow-up"></i>
+                        </button>
+                        <button id="button-down" class="action-button huge-font thin-button">
+                            <i class="fas fa-arrow-down"></i>
+                        </button>
+                        <button id="button-right" class="action-button huge-font thin-button">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <button id="button-yellow" class="action-button yellow-bg huge-font thin-button">
+                            <i class="fas fa-paint-roller"></i>
+                        </button>
+                        <button id="button-red" class="action-button red-bg huge-font thin-button">
+                            <i class="fas fa-paint-roller"></i>
+                        </button>
+                        <button id="button-blue" class="action-button blue-bg huge-font thin-button">
+                            <i class="fas fa-paint-roller"></i>
+                        </button>
+                        <button id="button-green" class="action-button green-bg huge-font thin-button">
+                            <i class="fas fa-paint-roller"></i>
+                        </button>
+                        <button id="button-text" class="action-button huge-font thin-button">
+                            <i class="fas fa-font"></i>
+                        </button>
+                    </div>
+                </div>
+    
+                
+                <!-- Değişken panosu -->
+                
+                <div id="variable-panel" class="panel">
+                    <div class="panel-header">Hafıza</div>
+                    <ul id="variable-lines" class="line"></ul>
+                </div>
+                
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div id="content-mobile">
+    Kodlama ortamı daha büyük bir ekran kullanmayı gerektiriyor!
+    </div>
+    
+    <div id="chapter" style="display:none">-1</div> 
+    <!-- Bulunulan bölümü gösteriyor. Buna göre içerik değişir (ve bazen tasarım da). Burası PHP ile doldurulabilir. -->
+    <!-- -1 yazılabilir. Bu durumda bütün bölümler arka arkaya gösterilir. -->
+    <!-- İlki 1'den başlıyor. -->
+
+    <div id="last-program" style="display:none">-1</div> 
+    <!-- Bitirilen son programı gösteriyor. 0 hiç bitirilmedi demek. Böylece bundan sonraki program gösterilebilir. Burası PHP ile doldurulabilir. -->
+    <!-- -1 yazılabilir otomatik olarak hepsi bitti anlamında. -->
+
+    <div id="submit-results" style="display:none">0</div> 
+    <!-- 0: false, 1: true -->
+
+    <div id="main-page" style="display:none">http://www.computationalwisdom.com/</div> 
+    <!-- https://www.derslab.com/ogrenci/kodokuryazarligi.php -->
+
+    <script src="./dist/bundle.js"></script>
+</body>
+</html>
