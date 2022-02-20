@@ -2,6 +2,8 @@
 
 .all-content {
 	font-family: 'Roboto', sans-serif;
+	max-width: 1400px; // You can uncomment.
+	margin: 10px auto; // You can uncomment.
 }
 
 .horizontal {
@@ -292,7 +294,8 @@ body {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	height: 50vh; // Burası 100'dü... Scrollbar kaybolsun diye yaptım da ne alaka???
+	//height: 50vh; // Burası 100'dü... Scrollbar kaybolsun diye yaptım da ne alaka???
+	overflow-x: hidden; // hide horizontal scrollbar
 }
 
 @keyframes gradient {
